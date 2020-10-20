@@ -29,7 +29,7 @@ Once the Live Server is running, do the following:
 1. Open PowerPoint
 2. Create a new presentation
 3. Insert the "[dev] Counter" add-in
-4. Once loaded, click on "Increment". The state should update and the logs should display "..."
+4. Once loaded, click on "Increment". The state should update and the logs should display the `saveAsync` callback has been called.
 5. Click on the `<select />` element and change its value.
 6. Click on "Increment"
 
