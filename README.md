@@ -39,5 +39,5 @@ Once the Live Server is running, do the following:
 You can also find a [video here](resources/2020-10-20_10-41-51.mp4) which shows the issue.
 
 Notes:
-- The `<select />` does not server a purpose other than reproducing this bug. It's not used in the code.
+- The `<select />` does not serve a purpose other than reproducing this bug. It's not used in the code.
 - Even though the `saveAsync` callback is not called, the state is still persisted. This can be verified by saving the presentation and opening it once again.
