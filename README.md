@@ -13,7 +13,7 @@ This issue was reproduced with
 
 # How to run this add-in
 
-- Follow the instructions to [sideload an Office Add-in for testing](https://docs.microsoft.com/en-us/javascript/api/office/office.settings?view=word-js-preview#saveasync-callback-). This was tested using the "[Sideload Office Add-ins for testing from a network share](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)" guide. The manifest is located in this repo `./manifest.xml`
+- Follow the instructions to [sideload an Office Add-in for testing](https://docs.microsoft.com/en-us/javascript/api/office/office.settings?view=word-js-preview#saveasync-callback-). The manifest is located in this repo `./manifest.xml`
 - To run the add-in, we used VSCode and the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 If you encounter the issue "We can't open this add-in from localhost" when loading an Office Add-in or using Fiddler, you might have to run the following command in the command prompt as administrator ([source](https://docs.microsoft.com/en-us/office/troubleshoot/office-suite-issues/cannot-open-add-in-from-localhost))
